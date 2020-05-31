@@ -13,7 +13,7 @@ ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
 # Location common setup script
-ARG COMMON_SCRIPT_SOURCE="https://gist.githubusercontent.com/claudioluciano/1d9e2f50637512f5d8bceb1bc0cd6998/raw/5ae70cbecc0dcd2c91e259202b863ba48fc51dcf/common-alpine.sh"
+ARG COMMON_SCRIPT_SOURCE="https://raw.githubusercontent.com/claudioluciano/devcontainers/master/scripts/alpine-brew-fish.sh"
 
 # Install git, bash, dependencies, and add a non-root user
 RUN apk update \
