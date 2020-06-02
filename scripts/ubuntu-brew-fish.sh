@@ -22,7 +22,6 @@ apt-get -y upgrade
 # Install common dependencies
 apt-get -y install --no-install-recommends \
     build-essential \
-    ca-certificates \
     git \
     curl \
     fish \
