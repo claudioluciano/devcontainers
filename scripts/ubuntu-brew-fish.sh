@@ -25,10 +25,6 @@ apt-get -y install --no-install-recommends \
     git \
     curl \
     locales
-    
-apt-add-repository ppa:fish-shell/release-3
-apt-get update
-apt-get install fish
 
 # Ensure at least the en_US.UTF-8 UTF-8 locale is available.
 # Common need for both applications and things like the agnoster ZSH theme.
